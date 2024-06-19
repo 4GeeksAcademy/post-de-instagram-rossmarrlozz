@@ -1,0 +1,61 @@
+body{
+    background: black;
+}
+
+.container{
+    background: white;
+    margin: auto;
+    width: 740px;
+    height: 1005px;
+}
+
+.post-header{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-top: 4.80%;
+    margin-left: 2%;
+    transform: scale(2.3); 
+}
+
+.tres{
+    margin-top: 4.80%;
+    margin-right: 2%;
+    transform: scale(2.3); 
+}
+
+.texto{
+    margin-right: auto;
+    margin-left: 2%;
+    font-family: "Roboto Flex", sans-serif;
+}
+
+.post-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.izq{
+    transform: scale(2.5);
+    margin-top: 4.80%;  
+    margin-left: 6.5%;  
+}
+
+.der{
+    transform: scale(2.5);
+    margin-top: 4.80%;  
+    margin-right: 2.5%;
+}
+    
+.post-body{
+    margin-top: 4.80%;  
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: "Roboto Flex", sans-serif;
+    font-size: larger;
+}
+
